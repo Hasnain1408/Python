@@ -5,7 +5,7 @@ email ='''
 Assalamu walikum, Sir.My SPL-01 is under your supervision.You gave me a task.I completed it.
 If you have time,I will discuss with you tomorrow.
 '''
-print(email)
+print(email.upper())
 
 age=21
 text="My name is Hasnain, and I am {}."

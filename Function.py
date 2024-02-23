@@ -28,3 +28,11 @@ numList=[100,50,65,82,23]
 #numList.sort(reverse=True)
 numList.sort(key=myfun,reverse=True)
 print(numList)
+
+
+def print_list(ls):
+    for x in ls*2:
+        print(x)
+
+fruits=["apple",'banana','cherry',"kiwi","mango"]
+print_list(fruits*2)
