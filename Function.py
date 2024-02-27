@@ -16,6 +16,7 @@ my_country()
 my_country("Sadik","Pakistan")
 my_country("Fuad","Saudi Arabia")
 my_country(country="Palestine")
+my_country("Alvi")
 
 
 
