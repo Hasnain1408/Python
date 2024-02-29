@@ -20,6 +20,8 @@ capitals = {
 capitals.update({"Japan": "Tokyo"})
 capitals.update({'Pakistan': "Korachi"})
 capitals["German"] = "Berlin"
+capitals.setdefault('Pakistan', "Lahore")
+
 # capitals.pop("Egypt")
 # del capitals["Egypt"]
 # capitals.popitem()
