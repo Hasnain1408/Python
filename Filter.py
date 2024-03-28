@@ -1,5 +1,5 @@
 
-myfamily = {
+family = {
     # "name": "Hussainan",
     # "year": 2003,
 
@@ -26,7 +26,7 @@ def myFunc(child):
     return False
 
 
-val = myfamily.values()
+val = family.values()
 adolescents = filter(myFunc, val)
 # adults = filter(myFunc, [child for child in children if isinstance(child, dict)])
 
